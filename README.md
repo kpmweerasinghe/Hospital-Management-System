@@ -192,7 +192,4 @@ The project includes:
 * Prepared statements in security-sensitive operations
 
 This project is intended for academic and demonstration purposes.
-
-Author
-
-Developed as an academic Hospital Management System project.
+IKPM Weerasinghe.
