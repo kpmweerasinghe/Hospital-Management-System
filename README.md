@@ -72,7 +72,7 @@ The main objectives of this system are:
 - View medical history
 - Upload patient-related documents
 - Maintain centralized patient records
-
+![patient page](screanshots/patients.png)
 ---
 
 ### 👨‍⚕️ Doctor Management
@@ -83,7 +83,7 @@ The main objectives of this system are:
 - Assign doctors to departments
 - Manage doctor schedules
 - View doctor schedules
-
+![doctors page](screanshots/doctors.png)
 ---
 
 ### 📅 Appointment Management
@@ -94,7 +94,7 @@ The main objectives of this system are:
 - Reschedule appointments
 - Track appointment information
 - Connect appointments with patients and doctors
-
+![appoinment page](screanshots/appoinments.png)
 ---
 
 ### 📋 Electronic Medical Records (EMR)
@@ -105,7 +105,6 @@ The main objectives of this system are:
 - Record treatment history
 - Maintain medical reports
 - Connect medical information with patient records
-
 ---
 
 ### 🧪 Laboratory Management
@@ -115,7 +114,7 @@ The main objectives of this system are:
 - Enter laboratory results
 - Generate laboratory reports
 - Track laboratory test information
-
+![laboratory page](screanshots/laboratory.png)
 ---
 
 ### 💊 Pharmacy Management
@@ -126,7 +125,7 @@ The main objectives of this system are:
 - Monitor medicine quantities
 - Monitor medicine expiry
 - Manage pharmacy-related transactions
-
+![pharmacy page](screanshots/pharmacy.png)
 ---
 
 ### 💰 Billing Management
@@ -138,7 +137,7 @@ The main objectives of this system are:
 - Generate invoices
 - Record payments
 - Track billing information
-
+![billing page](screanshots/billing.png)
 ---
 
 ### 📊 Reports
@@ -153,7 +152,7 @@ Available report categories include:
 - Pharmacy Reports
 - Laboratory Reports
 - Staff Reports
-
+![reports page](screanshots/reports.png)
 ---
 
 ### 🔐 Security Features
