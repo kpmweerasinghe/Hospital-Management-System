@@ -60,7 +60,7 @@ The main objectives of this system are:
 - Secure password hashing
 - Session management
 - Session timeout
-
+![login page](screanshots/login.png)
 ---
 
 ### 🧑‍⚕️ Patient Management
