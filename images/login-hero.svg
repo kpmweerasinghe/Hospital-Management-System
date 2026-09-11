@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a5c64"/>
+      <stop offset="100%" stop-color="#2fb8a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky)"/>
+  <circle cx="500" cy="80" r="60" fill="#ffffff" opacity="0.08"/>
+  <circle cx="80" cy="320" r="90" fill="#ffffff" opacity="0.07"/>
+
+  <!-- building -->
+  <rect x="180" y="140" width="240" height="220" rx="6" fill="#ffffff" opacity="0.95"/>
+  <rect x="210" y="100" width="180" height="50" rx="4" fill="#ffffff" opacity="0.95"/>
+  <rect x="285" y="70" width="30" height="40" fill="#ffffff" opacity="0.95"/>
+  <rect x="292" y="50" width="16" height="26" fill="#f2a154"/>
+  <rect x="283" y="60" width="34" height="8" fill="#f2a154"/>
+
+  <!-- cross on building -->
+  <rect x="288" y="115" width="24" height="8" fill="#0e7c86"/>
+  <rect x="296" y="107" width="8" height="24" fill="#0e7c86"/>
+
+  <!-- windows -->
+  <g fill="#0e7c86">
+    <rect x="200" y="170" width="26" height="26" rx="3"/>
+    <rect x="240" y="170" width="26" height="26" rx="3"/>
+    <rect x="334" y="170" width="26" height="26" rx="3"/>
+    <rect x="374" y="170" width="26" height="26" rx="3"/>
+    <rect x="200" y="215" width="26" height="26" rx="3"/>
+    <rect x="240" y="215" width="26" height="26" rx="3"/>
+    <rect x="334" y="215" width="26" height="26" rx="3"/>
+    <rect x="374" y="215" width="26" height="26" rx="3"/>
+    <rect x="200" y="260" width="26" height="26" rx="3"/>
+    <rect x="374" y="260" width="26" height="26" rx="3"/>
+  </g>
+
+  <!-- door -->
+  <rect x="278" y="300" width="44" height="60" rx="4" fill="#f2a154"/>
+
+  <!-- heartbeat line -->
+  <polyline points="60,360 140,360 165,300 190,400 215,330 240,360 540,360"
+            fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+</svg>

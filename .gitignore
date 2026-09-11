@@ -1,0 +1,23 @@
+# XAMPP / temporary files
+*.log
+*.tmp
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Patient uploaded documents
+uploads/*
+
+# Backup files
+*.bak
+
+# Environment files
+.env
+
+# Temporary database files
+*.tmp
