@@ -1,195 +1,251 @@
-Hospital Management System
+# 🏥 Hospital Management System
 
-A web-based Hospital Management System developed using PHP, MySQL, HTML, CSS, JavaScript and XAMPP.
+A web-based **Hospital Management System (HMS)** developed to manage and streamline the daily operations of a hospital. The system provides separate functionality for administrators, doctors, nurses, receptionists, laboratory staff, pharmacists, and accountants.
 
-Project Overview
+The system is designed to manage patients, doctors, appointments, electronic medical records, laboratory services, pharmacy operations, billing, reports, user access control, and security-related activities from a centralized platform.
 
-The Hospital Management System is designed to manage major hospital operations through a centralized web application.
+---
 
-The system provides role-based access for:
+## 📌 Project Overview
 
-* Administrator
-* Doctor
-* Nurse
-* Receptionist
-* Laboratory Staff
-* Pharmacist
-* Accountant
+The Hospital Management System provides an integrated solution for managing hospital-related activities through a web-based application.
 
-Main Features
+The system allows authorized users to:
 
-User Management
+- Register and manage patients
+- Manage doctor information and departments
+- Manage doctor schedules
+- Book, cancel, and reschedule appointments
+- Maintain electronic medical records
+- Manage laboratory test requests and results
+- Manage pharmacy inventory and prescriptions
+- Manage hospital billing and payments
+- Generate operational and financial reports
+- Manage system users and roles
+- Maintain audit logs
+- Implement role-based access control
+- Apply secure login and session timeout mechanisms
 
-* Secure login
-* Logout
-* Password hashing
-* User roles
-* Role-Based Access Control (RBAC)
-* Session timeout
-* Audit logs
+The project was developed as an academic/software development project using PHP, MySQL, HTML, CSS, JavaScript, and XAMPP.
 
-Patient Management
+---
 
-* Register patients
-* Update patient information
-* Search patients
-* View patient medical history
-* Upload patient documents
+## 🎯 Project Objectives
 
-Doctor Management
+The main objectives of this system are:
 
-* Add doctors
-* Update doctor details
-* Department assignment
-* Doctor schedule management
+1. To computerize hospital management activities.
+2. To reduce manual paperwork and data duplication.
+3. To provide centralized patient and medical information.
+4. To improve appointment and doctor schedule management.
+5. To simplify laboratory and pharmacy management.
+6. To automate billing and payment recording.
+7. To provide role-based access to different hospital staff.
+8. To improve data security and accountability.
+9. To provide useful reports for hospital management.
+10. To create an efficient and user-friendly hospital information system.
 
-Appointment Management
+---
 
-* Book appointments
-* View appointments
-* Cancel appointments
-* Reschedule appointments
+## ✨ Main Features
 
-Electronic Medical Records
+### 👤 User Management
 
-* Diagnosis
-* Treatment records
-* Prescriptions
-* Medical history
+- User login and logout
+- Password-protected authentication
+- User account management
+- User role assignment
+- Role-based access control
+- Account status management
+- Secure password hashing
+- Session management
+- Session timeout
+<h4>Login Page</h4>
+<img src="login.png" alt="Login Page" width="700">
+---
 
-Laboratory Management
+### 🧑‍⚕️ Patient Management
 
-* Request laboratory tests
-* Sample collection
-* Result entry
-* Laboratory reports
+- Register new patients
+- Update patient information
+- Search patients
+- View patient details
+- View medical history
+- Upload patient-related documents
+- Maintain centralized patient records
 
-Pharmacy Management
+---
 
-* Medicine inventory
-* Stock management
-* Prescription processing
-* Expiry monitoring
+### 👨‍⚕️ Doctor Management
 
-Billing
+- Add doctors
+- Update doctor information
+- Manage doctor specializations
+- Assign doctors to departments
+- Manage doctor schedules
+- View doctor schedules
 
-* Consultation charges
-* Laboratory charges
-* Pharmacy charges
-* Admission charges
-* Invoice generation
-* Payment recording
+---
 
-Reports
+### 📅 Appointment Management
 
-* Patient reports
-* Appointment reports
-* Revenue reports
-* Pharmacy reports
-* Laboratory reports
-* Staff reports
+- Book appointments
+- View appointments
+- Cancel appointments
+- Reschedule appointments
+- Track appointment information
+- Connect appointments with patients and doctors
 
-Technologies Used
+---
 
-* PHP
-* MySQL
-* HTML5
-* CSS3
-* JavaScript
-* XAMPP
-* phpMyAdmin
+### 📋 Electronic Medical Records (EMR)
 
-System Requirements
+- Maintain patient medical records
+- Record diagnoses
+- Manage prescriptions
+- Record treatment history
+- Maintain medical reports
+- Connect medical information with patient records
 
-* XAMPP
-* Apache
-* MySQL
-* PHP
-* Web browser
+---
 
-Installation
+### 🧪 Laboratory Management
 
-1. Install XAMPP
+- Create laboratory test requests
+- Manage sample collection
+- Enter laboratory results
+- Generate laboratory reports
+- Track laboratory test information
 
-Install XAMPP and start:
+---
 
-* Apache
-* MySQL
+### 💊 Pharmacy Management
 
-2. Clone the Repository
+- Manage pharmacy inventory
+- Process prescriptions
+- Record medicine stock
+- Monitor medicine quantities
+- Monitor medicine expiry
+- Manage pharmacy-related transactions
 
-Place the project inside:
+---
 
-C:\xampp\htdocs\
+### 💰 Billing Management
 
-3. Database Setup
+- Record consultation charges
+- Record laboratory charges
+- Record pharmacy charges
+- Record admission charges
+- Generate invoices
+- Record payments
+- Track billing information
 
-Open:
+---
 
-http://localhost/phpmyadmin
+### 📊 Reports
 
-Create a database named:
+The system provides different reports to support hospital management and decision-making.
 
-hms_db
+Available report categories include:
 
-Import:
+- Patient Reports
+- Appointment Reports
+- Revenue Reports
+- Pharmacy Reports
+- Laboratory Reports
+- Staff Reports
 
-hms_database.sql
+---
 
-4. Configure Database
+### 🔐 Security Features
 
-Open:
+Security mechanisms implemented in the system include:
 
-db.php
+- Secure login
+- Password hashing
+- Role-Based Access Control (RBAC)
+- Protected pages
+- Session management
+- Session timeout
+- Audit logging
+- Access restriction based on user roles
+- Prepared SQL statements for important database operations
 
-Make sure the database configuration matches your local XAMPP setup.
+---
 
-5. Run the System
+## 👥 User Roles
 
-Open:
+The system supports the following user roles:
 
-http://localhost/hospital_management_system/
+| Role | Main Responsibilities |
+|------|------------------------|
+| **Administrator** | Manage users, doctors, patients, appointments, system operations, and reports |
+| **Doctor** | Manage schedules, appointments, medical records, diagnoses, and prescriptions |
+| **Nurse** | Access patient information and assist with medical records |
+| **Receptionist** | Register patients and manage appointments |
+| **Laboratory Staff** | Manage laboratory tests, samples, and results |
+| **Pharmacist** | Manage prescriptions, medicines, inventory, and expiry monitoring |
+| **Accountant** | Manage billing, payments, and financial information |
 
-Default Test Account
+---
 
-For demonstration purposes:
+## 🛠️ Technologies Used
 
-Username: admin
+### Frontend
 
-Password: 12345
+- HTML5
+- CSS3
+- JavaScript
 
-Change the demonstration password when using the system in a real environment.
+### Backend
 
-Project Structure
+- PHP
 
-hospital_management_system/
-│
-├── css/
-├── uploads/
-├── patients.php
-├── doctors.php
-├── appointments.php
-├── emr.php
-├── laboratory.php
-├── pharmacy.php
-├── billing.php
-├── reports.php
-├── users.php
-├── dashboard.php
-├── db.php
-├── hms_database.sql
-└── README.md
+### Database
 
-Security
+- MySQL
 
-The project includes:
+### Development Environment
 
-* Password hashing
-* Role-Based Access Control
-* Session management
-* Session timeout
-* Audit logging
-* Prepared statements in security-sensitive operations
+- XAMPP
+- Apache
+- MySQL
+- phpMyAdmin
 
-This project is intended for academic and demonstration purposes.
-IKPM Weerasinghe.
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## 🏗️ System Architecture
+
+The system follows a basic web application architecture:
+
+```text
+                    ┌──────────────────────┐
+                    │       User           │
+                    │ Doctor / Nurse /     │
+                    │ Receptionist / etc.  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    Web Interface     │
+                    │   HTML / CSS / JS    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │      PHP Backend     │
+                    │ Authentication / RBAC│
+                    │ Business Logic       │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    MySQL Database    │
+                    │        hms_db          │
+                    └──────────────────────┘
